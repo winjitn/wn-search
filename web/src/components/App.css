@@ -1,0 +1,42 @@
+* {
+  font-family: "Kanit", sans-serif !important;
+  font-weight: 300 !important;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  overflow-y: scroll;
+}
+
+.ctn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  margin: 200px 0 0 0 !important;
+  font-size: 60px;
+  color: rgb(0, 183, 255);
+}
+
+.searchbar {
+  font-size: 18px;
+  border: 0;
+  border-bottom: 1px solid rgb(199, 199, 199);
+  color: rgb(22, 22, 22);
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 40px 0;
+}
+
+.searchbar:focus {
+  border-bottom: 1px solid rgb(0, 183, 255);
+}
+
+input:focus {
+  outline: none;
+}
